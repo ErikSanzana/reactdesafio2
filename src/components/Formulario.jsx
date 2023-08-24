@@ -18,7 +18,7 @@ const Formulario = ({setAlert}) => {
     } else if (!isValidEmail(email)) {
       setAlert({
         error: true,
-        msg: "Completa los campos",
+        msg: "Ingresa un correo válido",
         color: "bg-danger"
       })
     } else if (contraseña !== confirmacionContraseña) {

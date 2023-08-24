@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Alert from './Alert';
 
 const Formulario = ({setAlert}) => {
   const [nombre, setNombre] = useState("");
